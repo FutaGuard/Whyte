@@ -1,0 +1,27 @@
+icann:
+  username: "your-email@example.com"
+  password: "your-password"
+
+nrdlist:
+  phase1:
+    # base64(yyyy-mm-dd.zip) e.g: 2026-03-26.zip
+    url: 
+    ext: ".zip"
+  phase2:
+    url: 
+    ext: ".txt"
+  phase3:
+    url: 
+    ext: ".csv.gz"
+  phase4: 
+    # nrd7.txt, nrd14-8.txt, nrd21-15.txt, nrd28-22.txt, nrd35-29.txt
+    url: 
+    ext: ".txt"
+
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: your-db-password
+  dbname: nrd
+  sslmode: disable
